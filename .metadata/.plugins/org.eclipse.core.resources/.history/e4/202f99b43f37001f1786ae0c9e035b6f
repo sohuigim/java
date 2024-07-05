@@ -1,0 +1,31 @@
+package sub1;
+
+/*
+ * 날짜 : 2024/07/01
+ * 이름 : 김소희
+ * 내용 : 조건문 if 실습 
+ */
+public class IfTest {
+	
+	public static void main(String[] args) {
+		
+		// if
+		int num1 = 1;
+		int num2 = 2;
+		
+		if( num1 < num2 ) {
+			// 조건이 참일때 실행
+			System.out.println("num1은 num2보다 작다.");
+			
+		}
+		
+		if(num1 > 1 ) {
+			System.out.println("num1은 1보다 크다.");
+		}
+		
+		// if ~ else
+		// if ~ else if ~ else 
+		
+	}
+
+}

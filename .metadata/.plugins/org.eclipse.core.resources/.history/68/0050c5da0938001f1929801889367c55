@@ -1,0 +1,33 @@
+package sub1;
+
+/*
+ * 날짜 : 2024/07/02
+ * 이름 : 김소희
+ * 내용 : Java 배열 실습하기
+ */
+
+public class ArrayTest {
+
+	public static void main(String[] args) {
+		
+		// 배열
+		int[] arr1 = {1, 2, 3, 4, 5};
+		char[] arr2 = {'A', 'B', 'C'};
+		String[] arr3 = {"서울", "대전", "대구", "부산", "광주"};
+		
+		// 배열 원소
+		System.out.println("arr1 1번째 원소 : " + arr1[0]);
+		
+		
+		// 배열 길이
+		
+		// 배열 반복문
+		
+		// 1차원 배열
+		
+		// 2차원 배열
+		
+		// 3차원 배열
+		
+	}
+}

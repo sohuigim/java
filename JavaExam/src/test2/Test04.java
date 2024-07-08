@@ -1,5 +1,6 @@
 package test2;
 
+
 /*
  * 날짜 : 2024/07/05
  * 이름 : 김소희
@@ -16,25 +17,33 @@ package test2;
  *  4단계 : 두번째 원소보다 작은 원소를 찾으면 서로 자리 교환
  *  5단계 : 위와 같이 최종 숫자가 하나 남을 때까지 반복 수행
  */
+
+import java.util.Arrays;
+
 public class Test04 {
 	public static void main(String[] args) {
 		
 		int arr[] = {4, 2, 1, 5, 3};
 		
+		
 		for (int i=0 ; i<4 ; i++) {
-			for (int j = i+1 ; j<t ; j++) {
-				
-				if (arr[i] > arr[j]) {
+
+			for (int j = i+1 ; j<5 ; j++) {
+
+				if (arr[i] > arr[j]) {					
 					int temp = arr[j];
-					
+					arr[j] = arr[i];
 					arr[i] = temp;
 				}
 			}
+			
+			// 배열 출력
+			System.out.println(Arrays.toString(arr));
 		}
-		
+
 		// 정렬된 배열 출력하기
-		for () {
+		for (int n : arr) {
 			System.out.print(n+" ");
-		}
+		}	
 	}
 }

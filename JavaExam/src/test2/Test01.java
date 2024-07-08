@@ -1,5 +1,6 @@
 package test2;
 
+
 /*
  * 날짜 : 2024/07/05
  * 이름 : 김소희
@@ -21,4 +22,5 @@ public class Test01 {
 			System.out.print("\n");
 		}
 	}
+
 }

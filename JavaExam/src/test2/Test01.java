@@ -1,6 +1,8 @@
 package test2;
 
+//
 public class Test01 {
+	
 	public static void main(String[] args) {
 		char str[] = {'I', ' ', 'L', 'O', 'V', 'E', ' ', 'Y','O','U'};
 		int row, col;

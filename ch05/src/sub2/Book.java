@@ -40,7 +40,7 @@ show()
 			this.availableCopies = availableCopies ;
 		}
 
-		public boolean broowBook() {
+		public boolean borrowBook() {
 			if(availableCopies > 0) {
 				availableCopies--;
 				return true;

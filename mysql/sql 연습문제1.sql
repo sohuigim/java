@@ -14,7 +14,7 @@ create table `Customer` (
 	`name`	VARCHAR(10) not null,
 	`hp`	CHAR(13),
 	`addr`	VARCHAR(100),
-	`rdate` date not null
+	`rdate` datetime not null
 );
 
 drop table `customer`;

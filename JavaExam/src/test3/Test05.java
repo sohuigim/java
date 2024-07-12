@@ -25,7 +25,7 @@ class CarFactory {
 		return instance;
 	}
 	
-	public ? static createCar(String name, int price) {
+	public Vehicle createCar(String name, int price) {
 		return new Vehicle(name, price);
 	}
 }
@@ -33,7 +33,7 @@ class CarFactory {
 public class Test05 {
 	public static void main(String[] args) {
 		
-		CarFactory factory = ?
+		CarFactory factory = CarFactory.getInstance();
 				
 		Vehicle avante = factory.createCar("아반테", 2500);
 		Vehicle sonata = factory.createCar("소나타", 3000);

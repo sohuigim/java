@@ -2,8 +2,7 @@ package test3;
 
 
 class Student {
-	
-	private int studentId;
+	static int studentId;
 	private String studentName;
 	private String major;
 	private int grade;
@@ -29,13 +28,13 @@ public class Test04 {
 		
 		Student.studentId = 20201000;
 		
-		Student kim = (20201001, "김유신", "국문과", 1);
+		Student kim = new Student ("김유신", "국문과", 1);
 		kim.studentInfo();
 		
-		Student lee = (20201002, "이순신", "경제학과", 1);
+		Student lee = new Student ("이순신", "경제학과", 1);
 		lee.studentInfo();
 		
-		Student lim = (20201003, "임꺽정", "경영학과", 1);
+		Student lim = new Student ("임꺽정", "경영학과", 1);
 		lim.studentInfo();
 	}
 }

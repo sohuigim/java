@@ -1,4 +1,4 @@
-package ch08.sec03;
+package ch08.sec04;
 
 public class Television implements RemoteControl {
 	//필드
@@ -29,9 +29,6 @@ public class Television implements RemoteControl {
 			this.volume = volume;
 		}
 		System.out.println("현재 TV 볼륨: " +this.volume);
-		}
+		
 	}
-	
-	//turnOn() 추상 메소드 오버라이딩
-
 }

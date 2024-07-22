@@ -41,14 +41,13 @@ public class Test02 {
    
    }
 
-   private static void searchArray(int find, int[] arr) throws NotFoundException {
+   public static void searchArray(int find, int[] arr) throws NotFoundException {
 
-      for(int i : arr) {
-         if(i == find) {
-            return;
-         }
-      }
-      throw new NotFoundException();
-   }
-      
-}   
+		for(int i : arr) {
+			if(i == find) {
+				return;
+			}
+		}
+		throw new NotFoundException();
+	}
+}

@@ -14,7 +14,7 @@ public class Television implements RemoteControl {
 	//turnOff() 추상 메소드 오버라이딩
 	@Override
 	public void turnOff() {
-		System.out.println();
+		System.out.println("TV를 켭니다.");
 		
 	}
 	
